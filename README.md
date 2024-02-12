@@ -1,2 +1,2 @@
 # easy-udp
-rust udp library
+rust udp library :D
