@@ -17,4 +17,7 @@ impl Event {
         let bin = binding.as_slice();
         Self::Message(from_utf8(bin).unwrap().to_string())
     }
+    pub fn set<'a, T: serde::Deserialize<'a>>(value: T) {
+        todo!()
+    } 
 }
